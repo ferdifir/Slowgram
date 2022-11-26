@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/drawable/bg_button.xml" value="0.1" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/drawable/bg_button_disable.xml" value="0.1" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/drawable/bg_splash_screen.xml" value="0.1" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/activity_auth.xml" value="0.1" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/activity_camera.xml" value="0.1" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/activity_detail.xml" value="0.25" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/activity_main.xml" value="0.11" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/content_main.xml" value="0.1" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/custom_dialog_info.xml" value="0.20717948717948717" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/custom_loading_container.xml" value="0.20717948717948717" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/custom_tooltip_maps_explore.xml" value="0.33" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/fragment_login.xml" value="0.1" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/fragment_maps.xml" value="0.1" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/fragment_profile.xml" value="0.21041666666666667" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/fragment_register.xml" value="0.1" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/fragment_saved.xml" value="0.1" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/item_list_saved.xml" value="0.21041666666666667" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/layout/item_list_story.xml" value="0.18" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/menu/activity_main_drawer.xml" value="0.11836734693877551" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/menu/activity_main_toolbar.xml" value="0.21041666666666667" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Fred/Portofolio/BPAAI-Final-Submission/app/src/main/res/menu/home.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

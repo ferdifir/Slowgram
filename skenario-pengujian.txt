@@ -1,0 +1,79 @@
+Unit Test
+
+AuthViewModelTest
+1. Ketika berhasil login
+○ Memastikan bahwa method storyRepository.userLogin telah dipanggil
+○ Memastikan data actualResponse tidak null
+○ Memastikan mengembalikan Result.Success
+2. Ketika gagal login
+○ Memastikan bahwa method storyRepository.userLogin telah dipanggil
+○ Memastikan bahwa exception yang dikirimkan tidak null
+○ Memastikan mengembalikan Result.Error
+3. Ketika Register Berhasil
+○ Memastikan bahwa method storyRepository.userRegister telah dipanggil
+○ Memastikan data actualResponse tidak null
+○ Memastikan mengembalikan Result.Success
+4. Ketika Register Gagal
+○ Memastikan bahwa method storyRepository.userRegister telah dipanggil
+○ Memastikan bahwa exception yang dikirimkan tidak null
+○ Memastikan mengembalikan Result.Error
+
+HomeViewModelTest
+1. Ketika Berhasil Mendapatkan Story
+○ Memastikan bahwa nilai data story tidak null
+○ Memastikan data asli dengan data dummy sama
+○ Memastikan ukuran data asli dengan data dummy sama
+○ Memastikan data nama index ke-0 sama antara data asli dan data dummy
+2. Ketika User Logout
+○ Memastikan method storyRepository.clearLoginSession telah dipanggil
+
+MapsViewModelTest
+1. Ketika berhasil memuat data story dengan lokasi
+○ Memastikan method repository.getStoriesWithLocation telah dipanggil
+○ Memastikan actualResponse tidak null
+○ Memastikan mengembalikan Result.Success
+
+2. Ketika gagal memuat data
+○ Memastikan bahwa method repository.getStoriesWithLocation telah dipanggil
+○ Memastikan bahwa exception yang dikirimkan tidak null
+○ Memastikan mengembalikan Result.Error
+
+SplashViewModelTest
+1. Ketika Berhasil Mendapatkan Token
+○ Memastikan bahwa method repository.getLoginSession telah dipanggil
+○ Memastikan bahwa actualToken tidak null
+○ Memastikan bahwa actualToken sama dengan dummyToken
+
+UploadViewModelTest
+1. Ketika Berhasil Mendapatkan Token
+○ Memastikan bahwa method repository.getLoginSession telah dipanggil
+○ Memastikan bahwa actualToken tidak null
+○ Memastikan bahwa actualToken sama dengan dummyToken
+2. Ketika Berhasil Mengupload File
+○ Memastikan bahwa method repository.uploadStory telah dipanggil
+○ Memastikan bahwa actualResponse tidak null
+○ Memastikan mengembalikan Result.Success
+3. Ketika Gagal Mengupload File
+○ Memastikan bahwa method repository.uploadStory telah dipanggil
+○ Memastikan bahwa actualResponse tidak null
+○ Memastikan mengembalikan Result.Error
+
+StoryRepository
+1. Ketika User Berhasil Login
+○ Memastikan bahwa actualResponse tidak null
+2. Ketika Berhasil Register
+○ Memastikan bahwa actualResponse tidak null
+○ Memastikan tidak ada exception pada Result
+3. Berhasil Mendapatkan Data Story Dengan Lokasi
+○ Memastikan bahwa actualResponse tidak null
+4. Berhasil Mengunggah Story
+○ Memastikan bahwa actualResponse tidak null
+5. Ketika Berhasil Mendapatkan Token
+○ Memastikan bahwa actualToken tidak null
+○ Memastikan bahwa actualToken sama dengan expectedToken
+6. Ketika User Logout
+○ Memastikan method preferences.clearLoginSession telah dipanggil
+7. Berhasil Mendapatkan Data Story
+○ Memastikan bahwa nilai data story tidak null
+○ Memastikan ukuran data asli dengan data dummy sama
+

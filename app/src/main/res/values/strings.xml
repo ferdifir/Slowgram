@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Slowgram</string>
+
+    <string name="UI_validation_empty_email">Field Email must be filled</string>
+    <string name="UI_validation_invalid_email">Email format is invalid</string>
+    <string name="UI_validation_password_rules">Password must contain at least 6 characters</string>
+    <string name="toast_login_success">Login successfully</string>
+
+    <string name="menu_explore">Explore</string>
+    <string name="menu_discover">Discover</string>
+
+    <string name="const_text_seconds_ago">seconds ago</string>
+    <string name="const_text_minutes_ago">minutes ago</string>
+    <string name="const_text_hours_ago">hours ago</string>
+    <string name="const_text_days_ago">days ago</string>
+    <string name="const_text_adapter_maps_default">Default View (Country)</string>
+    <string name="const_text_adapter_maps_province">Around My Province</string>
+    <string name="const_text_adapter_maps_city">Around My City</string>
+    <string name="const_text_adapter_maps_district">Around My District</string>
+    <string name="const_text_adapter_maps_around">Around My Location</string>
+    <string name="loading_error_message">Unable to fetch stories data</string>
+    <string name="menu_title_blank">" "</string>
+    <string name="menu_title_refresh">Refresh</string>
+    <string name="login_error_message">Login failed, please try again.</string>
+    <string name="const_text_switch">Share my location</string>
+    <string name="toast_caption_empty">Caption is empty</string>
+    <string name="toast_activate_location">Please activate location services</string>
+    <string name="menu_logout">Logout</string>
+    <string name="desc_button_to_capture_image">button to capture image</string>
+    <string name="desc_button_decoration">this button only decoration</string>
+    <string name="desc_button_to_open_gallery">this button to open gallery</string>
+    <string name="desc_button_to_close_camera">this button to close camera</string>
+    <string name="desc_profile_picture">this image as substitute profile picture</string>
+    <string name="desc_image_story">this image will show image of story</string>
+    <string name="desc_fab_add_story">this button will open activity to add story</string>
+    <string name="desc_button_upload">this button will upload story</string>
+    <string name="hint_desc_upload_story">Write a caption</string>
+    <string name="ui_share_my_location">Share my location</string>
+    <string name="ui_click_to_see_story">( Click to see story )</string>
+    <string name="desc_no_data">illustration_no_data</string>
+    <string name="ui_story_not_found">Story not found</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="button_log_in">Log in</string>
+    <string name="ui_route_to_register">Don\'t have an account? Sign up.</string>
+    <string name="hint_name">Name</string>
+    <string name="button_register">Register</string>
+    <string name="ui_route_to_login">Already have an account? Log in</string>
+    <string name="desc_reload_more">reload more story</string>
+</resources>

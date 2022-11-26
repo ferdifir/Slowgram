@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/gray" />
+    <item
+        android:gravity="center"
+        android:width="300dp"
+        android:height="300dp">
+        <bitmap
+            android:src="@drawable/logo_dicoding"
+            android:gravity="fill_horizontal|fill_vertical" />
+    </item>
+    <item
+        android:gravity="bottom|center_horizontal"
+        android:width="80dp"
+        android:height="20dp"
+        android:bottom="20dp">
+        <bitmap
+            android:src="@drawable/logo_dicoding_footer"
+            android:gravity="fill_horizontal|fill_vertical"/>
+    </item>
+
+</layer-list>
