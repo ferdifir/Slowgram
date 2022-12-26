@@ -1,7 +1,21 @@
-# Slowgram
+# Slowgram - Android Story App
 
-This project was created to fulfill the Submission in Dicoding course in the Belajar Pengembangan Aplikasi Android Intermediate (BPAAI) class in the Android learning path. Slowgram is made to share stories about coding, similar to Instagram posts but special for Dicoding. The app is mainly written in Kotlin and uses the Gradle build system. 
+This Android app is a project completed as part of the BPAAI class at Dicoding. It is a story app that allows users to view, upload, and map stories. The app is written in Kotlin and includes unit tests to ensure the quality of the code. It received a 4-star rating from the reviewer at Dicoding.
 
-## Disclaimer
-> This repository is shown as **`REFERENCE`** only from final submission of Dicoding's class, Belajar Pengembangan Aplikasi Android Intermediate (BPAAI).
-> All forms of plagiarism for BPAAI submissions of Dicoding from this repository will be penalized by Dicoding
+## Features
+
+ - Display a list of stories using the Room database and the Paging 3 library
+ - Display stories on a map using the Google Maps API
+ - Upload stories using the camera or the device's gallery
+
+## Technologies Used
+
+ - Kotlin programming language
+ - Room for local data storage
+ - Retrofit for networking
+ - Paging 3 for paginated data loading
+ - Google Maps API for mapping stories
+ 
+## Getting Started
+
+To get started with this app, you will need to clone this repository and open it in Android Studio. You will also need to obtain your own API keys for the Google Maps API and any other services that you wish to use.
